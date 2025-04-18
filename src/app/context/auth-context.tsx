@@ -1,4 +1,5 @@
 "use client";
+import { log } from "console";
 import React, { createContext, useContext, useEffect, useState } from "react";
 
 interface AuthContextData {

@@ -118,5 +118,10 @@
   }
   body {
     @apply bg-background text-foreground;
-  }
+  }  
 }
+
+
+.loading-screen {
+    @apply fixed w-screen h-screen flex items-center justify-center bg-[#0000004D] z-[100] top-0 left-0;
+  }
